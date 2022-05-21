@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="public/css/style.css" />
+    <title>Note | Catatan</title>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Catatan di hari ini</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium blanditiis ea est tenetur et animi, non quae illum labore incidunt pariatur perspiciatis recusandae temporibus ipsam provident. Doloribus et nesciunt unde.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-none">
+        <div class="d-flex justify-content-center align-items-center cover">
+          <div class="card p-3 card-form">
+            <form>
+              <div class="mb-3">
+                <label for="title-note" class="form-label">Judul</label>
+                <input type="email" class="form-control" id="title-note" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="note" class="form-label">Text</label>
+                <input type="text" class="form-control" id="note" />
+              </div>
+              <button type="button" class="btn btn-primary btn-simpan">Simpan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" id="button-show" type="button" style="position: fixed; right: 50px; bottom: 50px">Tambah</button>
+    <script src="public/js/script.js"></script>
+  </body>
+</html>
