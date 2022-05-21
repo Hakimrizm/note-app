@@ -12,6 +12,7 @@ button.addEventListener("click", function () {
 window.addEventListener("click", function (e) {
   if (e.target == form) {
     form.parentElement.classList.add("d-none");
+    form.parentElement.classList.remove("d-block");
   }
 
   if (e.target.classList.contains("btn-simpan")) {
